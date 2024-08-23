@@ -32,6 +32,12 @@ body {
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
+    margin-top: 5px;
+}
+#page>nav>button:hover{
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
 }
 #page>nav>button{
     padding: 7px 20px;
