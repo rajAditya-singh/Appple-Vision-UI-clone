@@ -124,5 +124,142 @@ body {
     position: relative;
     height: 100vh;
     width: 100vw;
-    /* background-color:#fff; */
+    background-color:#fff;
 }
+
+#page3>img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page3-upper{
+    width: 25%;
+    height: 35%;
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+}
+
+#page3-upper>img{
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page3-upper-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    color: #ff823d;
+    top: 25%;
+}
+
+#page3-upper-inner>h3{
+    font-size: small;
+    font-weight: 700;
+}
+
+#page3-upper-inner>h3:hover{
+    font-weight: 800;
+    cursor: pointer;    
+}
+
+#page3>button{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    border: 1px solid black;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 50px ;
+    font-size: 1.2vw;
+}
+
+#page4{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* background-color: red; */
+}
+
+#page4>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#center-page4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+}
+
+#page5{
+    display:flex;
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+
+}
+
+.left5{
+    position: relative;
+    height: 100%;
+    width: 50%;
+
+}
+.left5>h1{
+    font-size: 2.5vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+}
+.right5{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 5vw;
+}
+
+.right5>h3{
+    font-size: 1.8vw;
+    width: 90%;
+    color: rgba(128, 128, 128, 0.445);
+}
+
+.right5>button{
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1vw;
+    margin-top: 1.5vw;
+
+}
+
